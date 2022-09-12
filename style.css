@@ -28,7 +28,6 @@ body {
 .container {
     height: 100vh;
     width: 100%;
-    background-color: antiquewhite;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -37,8 +36,8 @@ body {
 .card {
     border: 2px solid black;
     border-radius: 10px;
-    pading: 2rem;
-
+    padding: 2rem;
+    background-color: rgb(34, 33, 33);
     color: white;
     margin: 7rem;
     width: 21rem;
