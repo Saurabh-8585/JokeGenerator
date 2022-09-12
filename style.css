@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+
+.my-1 {
+    margin: 1rem 0;
+}
+
+
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 2rem;
+    background-color: rgb(34, 33, 33);
+    color: white;
+    margin: 7rem;
+}
+
+
+.radio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.text-area {
+    border: none;
+    resize: none;
+    padding-top: 1rem ; 
+    font-weight: bold;
+    background-color: transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 110%;
+    color: white;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-area:focus {
+    outline: none;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+}
+
+.generate {
+    padding: 0.4rem;
+    border-radius: 9px;
+    background-color: rgb(255, 114, 63);
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+}
+
+
+.copy {
+    padding: 0.4rem;
+    border-radius: 9px;
+    background-color: rgb(255, 63, 127);
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.copy:hover,
+.generate:hover {
+    background-color: rgb(241, 48, 48);
+}
