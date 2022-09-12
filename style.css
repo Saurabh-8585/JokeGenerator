@@ -17,21 +17,9 @@ body {
 }
 
 .head {
-    color: rgb(228, 5, 248);
+    color: rgb(148, 112, 248);
 }
 
-.blue {
-    color: rgb(32, 155, 255);
-
-}
-
-.orange {
-    color: rgb(245, 97, 43);
-}
-
-.green {
-    color: rgb(140, 255, 9);
-}
 
 .radio {
     font-size: larger;
