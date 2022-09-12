@@ -78,6 +78,7 @@ body{
     color: white;
     font-size: larger;
     cursor: pointer;
+    border: none;
 }
 
 
@@ -88,6 +89,7 @@ body{
     color: white;
     font-size: larger;
     cursor: pointer;
+    border: none;
 }
 
 .copy:hover,

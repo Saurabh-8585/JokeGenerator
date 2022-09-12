@@ -100,11 +100,14 @@ const generateJoke = () => {
     if (InputEnglish.checked) {
         jokeFunction(englishJokes)
     }
-    if (InputHindi.checked) {
+    else if (InputHindi.checked) {
         jokeFunction(hindiJokes)
     }
-    if (InputMarathi.checked) {
+    else if (InputMarathi.checked) {
         jokeFunction(marathiJokeS)
+    }
+    else {
+        displayjoke.innerHTML = "Please Select language!!!"
     }
 }
 
