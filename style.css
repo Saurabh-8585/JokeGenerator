@@ -3,7 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -15,7 +16,26 @@ body{
     margin: 1rem 0;
 }
 
+.head {
+    color: rgb(228, 5, 248);
+}
 
+.blue {
+    color: rgb(32, 155, 255);
+
+}
+
+.orange {
+    color: rgb(245, 97, 43);
+}
+
+.green {
+    color: rgb(140, 255, 9);
+}
+
+.radio {
+    font-size: larger;
+}
 
 .container {
     height: 100vh;
@@ -47,14 +67,15 @@ body{
 .text-area {
     border: none;
     resize: none;
-    padding-top: 1rem ; 
+    padding-top: 1rem;
     font-weight: bold;
     background-color: transparent;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 110%;
     color: white;
 }
-.text{
+
+.text {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,7 +95,7 @@ body{
 .generate {
     padding: 0.4rem;
     border-radius: 9px;
-    background-color: rgb(255, 114, 63);
+    background-color: rgb(97, 43, 245);
     color: white;
     font-size: larger;
     cursor: pointer;
@@ -85,14 +106,9 @@ body{
 .copy {
     padding: 0.4rem;
     border-radius: 9px;
-    background-color: rgb(255, 63, 127);
+    background-color: rgb(97, 43, 245);
     color: white;
     font-size: larger;
     cursor: pointer;
     border: none;
-}
-
-.copy:hover,
-.generate:hover {
-    background-color: rgb(241, 48, 48);
 }
